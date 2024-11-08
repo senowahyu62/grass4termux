@@ -1,3 +1,8 @@
+<p align="center">
+	<img src="https://telegra.ph/file/09910c07cd4637fd64727.jpg" width="65%" style="margin-left: auto;margin-right: auto;display: block;">
+</p>
+<h1 align="center">M4L1KOFC</h1>
+
 # Running node grass in termux
 
 register Grass https://app.getgrass.io/register?referralCode=k7qX2xNrCMRvVaR
