@@ -9,29 +9,33 @@ Link registrasi https://app.getgrass.io/register?referralCode=k7qX2xNrCMRvVaR
 #
 Di bawah ini saya akan memberi tahu kalian langkah demi langkah secara rinci cara menjalankan ekstensi Grass Anda di Termux.
 #
+Aplikasi yang perlu di install:
+1. Termux
+2. Kiwi Browser, dsb (untuk masuk mode developer)
+#
 Disclaimer ON! ⚠️⚠️⚠️⚠️
 
-If you do anything to your GetGrass account, you do it at your own risk! 
+If you do anything to your GetGrass account, you do it at your own risk!
 
 ## Command:
 
 1. Perintah paling awal (wajib):
 
-       pkg update && pkg upgrade 
+       pkg update && pkg upgrade (enter)
 
 2. Required install:
 
-       pkg install python
+       pkg install python (enter)
    #
-       pip install loguru
+       pip install loguru (enter)
    #
-       pip install websockets
+       pip install websockets (enter)
    #
-       pkg install git
+       pkg install git (enter)
    #
-       pkg install openssh
+       pkg install openssh (enter)
    #   
-       pkg install nmap
+       pkg install nmap (enter)
 
 
 4. Login SSH
@@ -39,38 +43,41 @@ Setelah run kode dibawah ini, ketik password nya:
 
        passwd
 
-##### clone bot folder from github: 
+##### Clone node folder from github: 
 
     git clone https://github.com/M4L1K0FC/grasstermux4zhen
 
     cd grasstermux
 
-run SSH:
+Run SSH:
 
     sshd
 
-check your device userID:
+Check your device userID (jgn lupa disalin):
 
     whoami
 
-Check your IP, select (UP, RUNNING):
+Check your IP (buat cek ip kalian, jgn lupa disalin):
 
     ifconfig
 
-run your ssh
-(ssh YourUserID@YourIP -p port)
+Check your PORT (buat cek port, default bisa pakai 8080 & 8022 sebenernya):
+
+    nmap (ip address kalian)
+
+Run your ssh
+(ssh YourUserID@YourIP -p Port)
 ###### example: 
 
     ssh u0_a763@10.200.83.228 -p 8022
 
-then submit your password to agree to login to SSH , you will automatically return to the initial folder, then go to the getgrass_bot folder:
+Lalu submit password kalian tadi setuju login ke SSH, kalian akan otomatis kembali ke folder awal, lalu masuk ke folder grass4termux :
 
-    cd grasstermux
+    cd grass4termux
 
-4. Get user id
+4. Cara dapetin user id untuk running nodenya
 
-//go to your getgrass dashboard on mises or kiwi browser,
-
+1. Buka website Grass Network 
 //launch Devtool,
 
 //refresh dashboard getgrass,
