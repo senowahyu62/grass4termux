@@ -81,7 +81,7 @@ Lalu submit password kalian tadi setujui login ke SSH (ketik yes), kalian akan o
 2. Login ke akun Grass Network kalian. Otomatis setelah login kalian akan langsung ada pada tampilan dasboard.
 3. Klik bagian titik 3 di kanan atas pada browser kalian(Kiwi Browser), setelah itu pencet bagian Developer Tools.
 4. Setelah masuk pada Developer tools tampilan awalnya kemungkinan kosong & tidak ada codingannya. Nah caranya kalian balik ke tab Grass Network tadi, terus refresh di bagian dashboard, kalau sudah kembali lagi ke tab developer toolsnya otomatis disitu sudah muncul codenya.
-5. Pada bagian menu Element, Console, Sources, Network(kalau yang muncul cuma Element & Console kalian bisa klik » di sebelah kanannya. Setelah itu pencet bagian Network, terus pada bagian filter(kolom pencarian) kalian ketik user. Setelah itu akan muncul:
+5. Pada bagian menu Element, Console, Sources, Network(kalau yang muncul cuma Element & Console kalian bisa klik tombol panah (»). Setelah itu pencet bagian Network, terus pada bagian filter(kolom pencarian) kalian ketik user. Setelah itu akan muncul:
 
 retrieveUser (pilih ini boleh)
 retrieveUser (pilih ini boleh sama aja)
