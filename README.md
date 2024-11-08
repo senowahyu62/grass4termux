@@ -13,7 +13,7 @@ Disclaimer ON! ⚠️⚠️⚠️⚠️
 
 If you do anything to your GetGrass account, you do it at your own risk! 
 
-## command:
+## Command:
 
 1. update and upgrade repository termux
 
@@ -30,6 +30,9 @@ If you do anything to your GetGrass account, you do it at your own risk!
        pkg install git
    #
        pkg install openssh
+   #   
+       pkg install nmap
+
 
 4. Login SSH
 create ssh password:
