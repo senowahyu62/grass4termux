@@ -87,13 +87,13 @@ retrieveUser (pilih ini boleh)
 retrieveUser (pilih ini boleh sama aja)
 retrieveUserSettings
 retrieveUserSettings 
-
+```
 Nah pada keempat file itu kalian bebas pilih yang retrieveUser pertama atau kedua, kalian tahan/klik kanan pada bagian retrieveUser-nya sampai muncul "Open in new tab" setelah itu kalian klik. Lalu akan muncul kode seperti ini.
 
 {"result":{"data":{"referralCount":9,"parentReferrals":["rahasia","rahasia"],"userRole":"USER","totalUptime":361442,"hasDesktopDevice":true,"referralCode":"k7qX2xNrCMRvVaR","entity":"UserProfile","email":"rahasia@gmail.com","referredBy":"rahasia","created":"rahasia","isVerified":true,"isWalletAddressVerified":true,"lastRewardClaimed":"rahasia","modified:" rahasia","qualifiedReferrals":rahasia,"totalPoints":rahasia,"username":"4zhen","userId":"[Disini Nanti Ada Kode User ID Kalian, bisa kalian saling & simpan]","walletAddress":"sigma male rahasia"}}}
 
 Setelah itu kalian kembali lagi ke termux 
-```
+
 # Kembali ke termux
 edit file no_proxy.py:
 
