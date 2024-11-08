@@ -15,7 +15,7 @@ If you do anything to your GetGrass account, you do it at your own risk!
 
 ## Command:
 
-1. update and upgrade repository termux
+1. Perintah paling awal (wajib):
 
        pkg update && pkg upgrade 
 
