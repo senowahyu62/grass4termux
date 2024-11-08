@@ -71,7 +71,7 @@ Run your ssh
 
     ssh u0_a763@10.200.83.228 -p 8022 (enter)
 
-Lalu submit password kalian tadi setuju login ke SSH, kalian akan otomatis kembali ke folder awal, lalu masuk ke folder grass4termux :
+Lalu submit password kalian tadi setujui login ke SSH (ketik yes), kalian akan otomatis kembali ke folder awal, lalu masuk ke folder grass4termux :
 
     cd grass4termux (enter)
 
