@@ -5,7 +5,7 @@
 
 # Running node grass in termux
 
-register Grass https://app.getgrass.io/register?referralCode=k7qX2xNrCMRvVaR
+Link registrasi https://app.getgrass.io/register?referralCode=k7qX2xNrCMRvVaR
 
 #
 Grass connection in mises browser to termux 
