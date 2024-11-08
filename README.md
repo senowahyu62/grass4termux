@@ -76,7 +76,7 @@ Lalu submit password kalian tadi setujui login ke SSH (ketik yes), kalian akan o
     cd grass4termux (enter)
 
 4. Cara dapetin user id untuk running nodenya
-
+```bash
 1. Buka website Grass Network di software Kiwi Browser(atau bisa di software lain).
 2. Login ke akun Grass Network kalian. Otomatis setelah login kalian akan langsung ada pada tampilan dasboard.
 3. Klik bagian titik 3 di kanan atas pada browser kalian(Kiwi Browser), setelah itu pencet bagian Developer Tools.
@@ -93,7 +93,7 @@ Nah pada keempat file itu kalian bebas pilih yang retrieveUser pertama atau kedu
 {"result":{"data":{"referralCount":9,"parentReferrals":["rahasia","rahasia"],"userRole":"USER","totalUptime":361442,"hasDesktopDevice":true,"referralCode":"k7qX2xNrCMRvVaR","entity":"UserProfile","email":"rahasia@gmail.com","referredBy":"rahasia","created":"rahasia","isVerified":true,"isWalletAddressVerified":true,"lastRewardClaimed":"rahasia","modified:" rahasia","qualifiedReferrals":rahasia,"totalPoints":rahasia,"username":"4zhen","userId":"[Disini Nanti Ada Kode User ID Kalian, bisa kalian saling & simpan]","walletAddress":"sigma male rahasia"}}}
 
 Setelah itu kalian kembali lagi ke termux 
-
+```
 # Kembali ke termux
 edit file no_proxy.py:
 
