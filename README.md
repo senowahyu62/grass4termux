@@ -45,7 +45,7 @@ Setelah run kode dibawah ini, ketik password nya:
 
 ##### Clone node folder from github: 
 
-    git clone https://github.com/M4L1K0FC/grasstermux4zhen (enter)
+    git clone https://github.com/M4L1K0FC/grass4termux (enter)
 
     cd grasstermux (enter)
 
