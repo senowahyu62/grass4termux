@@ -39,7 +39,7 @@ If you do anything to your GetGrass account, you do it at your own risk!
 
 
 4. Login SSH
-Setelah run kode dibawah ini, ketik password nya:
+Setelah run kode dibawah ini, ketik password nya(buat password kalian):
 
        passwd (enter)
 
