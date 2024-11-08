@@ -41,44 +41,48 @@ If you do anything to your GetGrass account, you do it at your own risk!
 4. Login SSH
 Setelah run kode dibawah ini, ketik password nya:
 
-       passwd
+       passwd (enter)
 
 ##### Clone node folder from github: 
 
-    git clone https://github.com/M4L1K0FC/grasstermux4zhen
+    git clone https://github.com/M4L1K0FC/grasstermux4zhen (enter)
 
-    cd grasstermux
+    cd grasstermux (enter)
 
 Run SSH:
 
-    sshd
+    sshd (enter)
 
 Check your device userID (jgn lupa disalin):
 
-    whoami
+    whoami (enter)
 
 Check your IP (buat cek ip kalian, jgn lupa disalin):
 
-    ifconfig
+    ifconfig (enter)
 
 Check your PORT (buat cek port, default bisa pakai 8080 & 8022 sebenernya):
 
-    nmap (ip address kalian)
+    nmap (ip address kalian) (enter)
 
 Run your ssh
 (ssh YourUserID@YourIP -p Port)
 ###### example: 
 
-    ssh u0_a763@10.200.83.228 -p 8022
+    ssh u0_a763@10.200.83.228 -p 8022 (enter)
 
 Lalu submit password kalian tadi setuju login ke SSH, kalian akan otomatis kembali ke folder awal, lalu masuk ke folder grass4termux :
 
-    cd grass4termux
+    cd grass4termux (enter)
 
 4. Cara dapetin user id untuk running nodenya
 
-1. Buka website Grass Network 
-//launch Devtool,
+1. Buka website Grass Network di software Kiwi Browser(atau bisa di software lain).
+2. Login ke akun Grass Network kalian. Otomatis setelah login kalian akan langsung ada pada tampilan dasboard.
+3. Klik bagian titik 3 di kanan atas pada browser kalian(Kiwi Browser), setelah itu pencet bagian Developer Tools.
+4. Setelah masuk pada Developer tools tampilan awalnya kemungkinan kosong & tidak ada codingannya. Nah caranya kalian balik ke tab Grass Network tadi, terus refresh di bagian dashboard, kalau sudah kembali lagi ke tab developer toolsnya otomatis disitu sudah muncul codenya.
+5. 
+//launch Devto
 
 //refresh dashboard getgrass,
 
