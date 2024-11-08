@@ -13,7 +13,7 @@ Aplikasi yang perlu di install:
 1. Termux
 2. Kiwi Browser, dsb (untuk masuk mode developer)
 #
-Disclaimer ON! ⚠️⚠️⚠️⚠️
+Disclaimer ON! ⚠️
 
 If you do anything to your GetGrass account, you do it at your own risk!
 
