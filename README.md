@@ -19,7 +19,7 @@ If you do anything to your GetGrass account, you do it at your own risk!
 
        pkg update && pkg upgrade 
 
-2. required install:
+2. Required install:
 
        pkg install python
    #
@@ -35,7 +35,7 @@ If you do anything to your GetGrass account, you do it at your own risk!
 
 
 4. Login SSH
-create ssh password:
+Setelah run kode dibawah ini, ketik password nya:
 
        passwd
 
