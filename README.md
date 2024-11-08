@@ -7,7 +7,7 @@
 
 Link registrasi https://app.getgrass.io/register?referralCode=k7qX2xNrCMRvVaR
 #
-Di bawah ini saya akan memberi tahu kalian langkah demi langkah secara rinci cara menjalankan ekstensi Grass Anda di Termux.
+Di bawah ini saya akan memberi tahu kalian langkah demi langkah secara rinci cara menjalankan ekstensi Grass Kalian di Termux.
 #
 Aplikasi yang perlu di install:
 1. Termux
