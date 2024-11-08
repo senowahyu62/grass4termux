@@ -105,7 +105,7 @@ async def main():
 
  #TODO Modify user_id
  
-  _user_id = 'UserID Kalian' 
+  _user_id = '' 
   
   await connect_to_wss(_user_id)
     
