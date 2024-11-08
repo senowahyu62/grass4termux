@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# @Time     :2023/12/31 1:09
-# @Author   :ym modified by zorg
-# @Email    :49154181@qq.com
+# @Time     :2023/10/08 1:09
+# @Author   :modified by 4Zhen 
+# @Email    :sigmaskibidi4zhen@gmail.com
 # @File     :ui.py
 # @Software :PyCharm
 import ssl
