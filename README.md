@@ -47,7 +47,7 @@ Setelah run kode dibawah ini, ketik password nya(buat password kalian):
 
     git clone https://github.com/M4L1K0FC/grass4termux (enter)
 
-    cd grasstermux (enter)
+    cd grass4termux (enter)
 
 Run SSH:
 
