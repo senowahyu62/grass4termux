@@ -1,22 +1,20 @@
-# -*- coding: utf-8 -*-
-# @Time     :2024/10/07 18:08
-# @Author   :modified by 4Zhen 
-# @File     :no_proxy.py
-# @Software :PyCharm
+import sys
+import os  # Tambahkan import os
+from loguru import logger
 import asyncio
 import random
 import ssl
 import json
 import time
 import uuid
-
 import websockets
-from loguru import logger
 
+# Konfigurasi loguru agar hanya satu entri log ditampilkan di konsol
+logger.remove()  # Hapus konfigurasi default
+logger.add(sys.stdout, format="{message}", level="INFO", enqueue=True, backtrace=False, diagnose=False)
 
 async def connect_to_wss(user_id):
     device_id = str(uuid.uuid4())
-    logger.info(device_id)
     while True:
         try:
             await asyncio.sleep(random.randint(1, 10) / 10)
@@ -34,6 +32,8 @@ async def connect_to_wss(user_id):
                     while True:
                         send_message = json.dumps(
                             {"id": str(uuid.uuid4()), "version": "1.0.0", "action": "PING", "data": {}})
+                        # Bersihkan layar sebelum menampilkan log baru
+                        os.system("clear")
                         logger.debug(send_message)
                         await websocket.send(send_message)
                         await asyncio.sleep(20)
@@ -44,6 +44,8 @@ async def connect_to_wss(user_id):
                 while True:
                     response = await websocket.recv()
                     message = json.loads(response)
+                    # Bersihkan layar sebelum menampilkan log baru
+                    os.system("clear")
                     logger.info(message)
                     if message.get("action") == "AUTH":
                         auth_response = {
@@ -58,23 +60,22 @@ async def connect_to_wss(user_id):
                                 "version": "2.5.0"
                             }
                         }
+                        os.system("clear")
                         logger.debug(auth_response)
                         await websocket.send(json.dumps(auth_response))
 
                     elif message.get("action") == "PONG":
                         pong_response = {"id": message["id"], "origin_action": "PONG"}
+                        os.system("clear")
                         logger.debug(pong_response)
                         await websocket.send(json.dumps(pong_response))
         except Exception as e:
+            os.system("clear")
             logger.error(e)
 
-
 async def main():
-    # TODO Modify user_id
-    _user_id = ''
+    _user_id = ''  # TODO: Sesuaikan user_id di sini
     await connect_to_wss(_user_id)
 
-
 if __name__ == '__main__':
-    # # Run the main function
     asyncio.run(main())
